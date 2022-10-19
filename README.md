@@ -10,7 +10,7 @@ npm install
 node index.js -slot=hmac -url=http://127.0.0.1:8000 -port=8888
 ```
 
-- -slot: slots文件夹下面的模块，定义了http请求和相应的处理方法
+- -slot: slots文件夹下面的模块，定义了http请求和相应的处理方法；填None代表不使用模块，纯代理
 - -url: 代理的目标url
 - -port: 代理服务的监听端口
 
